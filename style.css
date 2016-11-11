@@ -1,0 +1,72 @@
+.simple-box {
+    width: 400px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    line-height: 1;
+    border: 1px solid white;
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    font-size: 16pt;
+}
+
+.container {
+    margin: 50px auto auto auto;
+    width: 400px;
+}
+
+.clickable-box {
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.clickable-box:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.background-filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(12, 12, 12, 0.9);
+    height: 100vh;
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+}
+
+html {
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#background-picture{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.borderless {
+    border: none;
+}
+
+.small-font {
+    font-size: 12pt;
+}
+
+.emoji-font {
+    font-family: sans-serif;
+    font-size: 40pt;
+}
