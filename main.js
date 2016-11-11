@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       };
 
-      setTimeout(() => rpsProgress(0), 400);
+      rpsProgress(0);
     }
 
     rpsButton.onclick = playRPS;
@@ -51,10 +51,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  installHandlerWithDelay(5000);
+  installHandlerWithDelay(7000);
 
-  setTimeout(() => ridiculousDelay(500), 0);
-  setTimeout(() => ridiculousDelay(500), 0);
+  // setTimeout(() => ridiculousDelay(500), 0);
+  // setTimeout(() => ridiculousDelay(500), 0);
 }, false);
 
 
